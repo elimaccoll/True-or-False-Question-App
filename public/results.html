@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Results</title>
+</head>
+<body>
+    <div class="progress-container fixed-top">
+        <span class="progress-bar"></span>
+    </div>
+    <script src="scripts/scroll_progress.js" charset="utf-8"></script>
+    <nav id="nav-results">
+        <div class=nav-left>
+            <h1 id="title-container">
+                <a id="title" href="/index.html">OFC</a>
+            </h1>
+        </div>
+        <div class=nav-center>
+            <img id="logo" src="" alt="">
+        </div>
+        <div class="nav-right">
+            <div id="link-container">
+                <a class="link" href="results.html">RESULTS</a>
+            </div>
+        </div>
+    </nav>
+    <div class="count-container">
+        <div class="count" id="correct-count"></div>
+        <div class="count" id="wrong-count"></div>
+    </div>
+    <div class="back-container hidden">
+        <div id="back">BACK TO RESULTS</div>
+    </div>
+    <div id="entry-container"></div>
+    <div id="stats-container" class="hidden">
+        <div id="stats-header" class="stat-card">GLOBAL STATS</div>
+        <div id="total-answers" class="stat-card"></div>
+        <div id="correct-answers" class="stat-card"></div>
+        <div id="wrong-answers" class="stat-card"></div>
+        <div id="percentage_correct" class="stat-card"></div>
+    </div>
+    <div id="load-more-container">
+        <button id='load-more-btn'>
+            <span id="load-more-btn-text">LOAD MORE</span>
+        </button>
+    </div>
+    <script src="/scripts/results.js"></script>
+</body>
+</html>

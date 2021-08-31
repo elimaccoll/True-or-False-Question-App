@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html id="all" lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True or False</title>
+</head>
+<body>
+    <nav>
+        <div class=nav-left>
+            <h1 id="title-container">
+                <a id="title" href="/index.html">OFC</a>
+            </h1>
+        </div>
+        <div class=nav-center>
+            <img id="logo" src="" alt="">
+        </div>
+        <div class="nav-right">
+            <div id="link-container">
+                <a class="link" href="results.html">RESULTS</a>
+            </div>
+        </div>
+    </nav>
+    <section class="question-container">
+        <div id="question-header">
+            QUESTION:
+        </div>
+        <div id="question-text">
+            <p id="question"></p>
+        </div>
+    </section>
+    <!-- <section id="status-info" class="info-container">
+        <div class="status-container">
+            <div id="status-message-container">
+                <p id="status-message"></p>
+            </div>
+        </div>
+    </section> -->
+    <section class="response-container">
+        <div class="option-container">
+            <button id="false-btn" class="response-btn">FALSE</button>
+        </div>
+        <div id="or-text">or</div>
+        <div class="option-container">
+            <button id="true-btn" class="response-btn">TRUE</button>
+        </div>
+    </section>
+    <section id="streak-info" class="info-container">
+        <div class="streak-container">
+            <div id="streak-count" class="streak-card"></div>
+            <div id="best-streak-count" class="streak-card"></div>
+        </div>
+    </section>
+    <!-- <footer>
+        <a id="contact-email" href="mailto: maccoll.e@northeastern.edu">maccoll.e@northeastern.edu</a>
+        <button id="new-token">New Token</button>
+    </footer> -->
+    <script src="/scripts/questions.js"></script>
+</body>
+</html>
